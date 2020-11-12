@@ -1,0 +1,27 @@
+.register {
+    .input {
+        border: none;
+        border-bottom: 1px solid #CCC;
+        border-radius: 0;
+    }
+    padding-top: 5%;
+    padding-bottom: 5%;
+    hr {
+        background-color: #1282de;
+    }
+    h1 {
+        font-weight: bold;
+        color: #1282de;
+    }
+    .img-upload {
+        img {
+            width: 18%;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    form {
+        width: 50%;
+    }
+}

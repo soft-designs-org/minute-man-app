@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #1282de;
+    width: 100%;
+    max-width: 100%;
+    .navbar-brand {
+        font-size: 140%;
+        font-weight: bold;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: #ffffff;
+                font-size: 110%;
+                font-weight: 600;
+                /*On Hover Color*/
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.page-footer {
+    background-color: #1282de;
+    color: #ffffff;
+    padding: 1%;
+    .social-items {
+        .social-link {
+            margin-left: 1%;
+        }
+        /*Social Media Icons*/
+        img {
+            width: 3%;
+        }
+    }
+}

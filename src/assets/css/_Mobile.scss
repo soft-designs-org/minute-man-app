@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+    /*Carousel Componenst*/
+    .carousel {
+        .carousel-inner {
+            /*Center Caption On Small Screens*/
+            .carousel-caption {
+                top: 46%;
+                transform: translateY(-0%);
+                .carousel-caption-lg {
+                    font-size: 400%;
+                }
+                .txt-rotate,
+                .carousel-caption-sm {
+                    font-size: 200%;
+                }
+            }
+        }
+    }
+    /*Forms Components*/
+    .login,
+    .signup,
+    .register {
+        .form-wrapper {
+            width: 80%;
+            form {
+                padding: 10%;
+                background-color: rgba(218, 112, 214, 0.6);
+            }
+        }
+    }
+    /*Register*/
+    .register {
+        height: 100%;
+        .img-upload {
+            img {
+                width: 30%;
+            }
+            .form-wrapper {
+                top: 5%;
+            }
+        }
+    }
+    /*User Profile*/
+    .userProfile {
+        .profile-container {
+            width: 80%;
+        }
+        .service-category {
+            img {
+                width: 35%;
+            }
+        }
+    }
+    /*Footer Components*/
+    .page-footer {
+        .social-items {
+            img {
+                width: 8%;
+            }
+        }
+    }
+    /*Service List*/
+    .service-list {
+        width: 100%;
+        .rating {
+            img {
+                width: 20%;
+            }
+        }
+        .category-section {
+            img {
+                width: 25%;
+            }
+        }
+    }
+    .ads-section {
+        img {
+            width: 50%;
+        }
+    }
+}
+
+
+/*iPads*/
+
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    /*Forms Components*/
+    .login,
+    .signup,
+    .register {
+        .form-wrapper {
+            width: 40%;
+            form {
+                padding: 10%;
+                background-color: rgba(218, 112, 214, 0.6);
+            }
+        }
+    }
+    /*Footer Components*/
+    .page-footer {
+        .social-items {
+            img {
+                width: 5%;
+            }
+        }
+    }
+    /*Register*/
+    .register {
+        height: 100vh;
+        .form-wrapper {
+            width: 80%;
+        }
+    }
+    /*Service List*/
+    .service-list {
+        .rating {
+            img {
+                width: 20%;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/*Imports*/
+
+@import "./Nav-Footer";
+@import "./Carousel";
+@import "./Login";
+@import "./Services";
+@import "./Register";
+@import "./Signup";
+@import "./Home";
+@import "./ServiceListing";
+@import "./UserProfile";
+@import "./Mobile";
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Main Body Container*/
+
+.content-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.bg-primary {
+    background-color: #1282de;
+}
+
+
+/*Vertical Alignment*/
+
+.vertical-center {
+    margin: auto;
+}
+
+.main-content .link-unstyled {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+        font-weight: 600;
+        color: red;
+        cursor: pointer;
+    }
+}

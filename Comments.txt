@@ -1,0 +1,28 @@
+*Home Page*
+Bold Text For Nav Bar [Completed]
+Add Font Awesome for navigation links [Completed]
+No moving text for carousel text [Completed]
+Have icons zoomed out [Completed]
+Have icons in pairs for mobile view [Completed]
+Change background to white [Completed]
+Update icons for service categories [Completed]
+
+
+*Registration Page*
+SSN (not required) [Completed]
+
+*Profile Page*
+Add Edit Details Button [Completed]
+Align text [Completed]
+Add option to book an appointment using a modal [Completed]
+
+
+*Services Page*
+List in category using cards similar to that of LinkedIn with view more [In Progress]
+
+*Footer*
+Add 'minute man' to footer [Completed]
+
+*Others*
+Change font type raleway [Completed]
+Scheme Color [Will play around]

@@ -1,0 +1,24 @@
+.main-content {
+    background: #ffffff;
+    .content-block {
+        text-align: center;
+    }
+    /*Images In Main Body Area*/
+    img {
+        background: #ffffff;
+        //border-radius: 45%;
+        width: 28%;
+        &:hover {
+            width: 40%;
+            cursor: pointer;
+        }
+    }
+}
+
+.service-category-page {
+    cursor: pointer;
+    &:hover {
+        color: red;
+        font-weight: bold;
+    }
+}

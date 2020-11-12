@@ -1,0 +1,39 @@
+.carousel {
+    top: 0;
+    // position: relative;
+    .carousel-inner {
+        /*Carousel/Slider Text Caption*/
+        .carousel-caption {
+            top: 55%;
+            transform: translateX(-40%);
+            color: floralwhite;
+            line-height: normal;
+            .carousel-caption-lg {
+                font-size: 400%;
+                font-weight: bold;
+            }
+            .txt-rotate,
+            .carousel-caption-sm {
+                font-weight: bold;
+                font-size: 200%;
+            }
+        }
+    }
+}
+
+
+/*Makes carousel indicators round and dark gray*/
+
+.carousel-indicators>li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #202020;
+}
+
+
+/*Controls the height of the slider/carousel at "width:100%"*/
+
+.carousel-item>.w-100 {
+    height: 100vh;
+}

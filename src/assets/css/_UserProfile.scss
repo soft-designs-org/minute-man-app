@@ -1,0 +1,40 @@
+.userProfile {
+    .input {
+        border: none;
+        border-bottom: 1px solid #CCC;
+        border-radius: 0;
+    }
+    h1 {
+        font-weight: bold;
+        color: #1282de;
+    }
+    .heading {
+        hr {
+            width: 30%;
+            background-color: #1282de;
+        }
+    }
+    padding-top: 3%;
+    .profile-details {
+        font-size: 100%;
+        a {
+            font-size: 100%;
+        }
+        hr {
+            background-color: #1282de;
+        }
+        .fas {
+            font-size: 150%;
+        }
+        .fa-phone-alt {
+            font-size: 200%;
+        }
+    }
+    .service-category {
+        text-align: center;
+        img {
+            background-color: #1282de;
+            width: 10%;
+        }
+    }
+}
